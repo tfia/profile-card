@@ -183,7 +183,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 10pt;
 				line-height: 1.75;
 			}
 
@@ -1002,7 +1002,7 @@
 			padding: 0;
 			font-size: 0.9em;
 			list-style: none;
-			text-shadow: 2px 2px 4px #000000;
+			text-shadow: 1px 1px 4px #000000;
 		}
 
 			#footer .copyright li {
