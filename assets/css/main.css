@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");*/
+@import url('https://fonts.font.im/css?family=Montserrat');
 
 /*
 	Identity by HTML5 UP
@@ -116,7 +117,7 @@
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");*/
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/3.jpg");
 		/*background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -163,7 +164,7 @@
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 2;
@@ -233,7 +234,7 @@
 
 	h1 {
 		font-size: 1.85em;
-		letter-spacing: 0.22em;
+		letter-spacing: 0.1em;
 		margin: 0 0 0.525em 0;
 	}
 
@@ -843,6 +844,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		box-shadow: 1px 1px 2px #ff73b3
 	}
 
 		input[type="submit"]:hover,
@@ -930,7 +932,8 @@
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 27em;
+		width: 25em;
+		box-shadow: 0px 0px 6px #2E2E2E
 	}
 
 		#main .avatar {
@@ -999,6 +1002,7 @@
 			padding: 0;
 			font-size: 0.9em;
 			list-style: none;
+			text-shadow: 2px 2px 4px #000000;
 		}
 
 			#footer .copyright li {
